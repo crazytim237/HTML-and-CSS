@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+<title>Practice</title>
+
+<p>My first paragraph.</p>
+</html>
