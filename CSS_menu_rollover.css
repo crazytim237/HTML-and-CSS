@@ -31,8 +31,8 @@ body {
     color: #B3B3B3;
     display: inline-block;
     margin-right: -2px;
-    position: center;
-    padding: 0;
+    position: relative;
+    padding: 12px 40px;
     border: 1px solid #9D9FA2;
     border-radius: 2.0px;
     background-color: #387593;
@@ -58,6 +58,7 @@ body {
     top: 43.5px;
     width: 125.5px;
     opacity: 0;
+    visibility: hidden;
 }
 
 .submenu li {

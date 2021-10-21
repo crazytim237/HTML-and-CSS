@@ -30,7 +30,7 @@ h1 {
 }
 .squares:nth-child(-n+4){
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 1.0cm;
+    font-size: 1.0em;
     font-weight: 900;
     text-align: center;
     margin: 0;
