@@ -139,7 +139,7 @@ section {
     height: auto;
     padding-top: 350px; /*This is spacer before the main title logo*/
     padding-bottom: 500px; /*This is spacer after the main title logo*/
-    color: #fff;
+    color: rgb(196, 24, 24);
 }
 
 .head-main {
