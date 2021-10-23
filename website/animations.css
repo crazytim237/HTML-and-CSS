@@ -1,6 +1,6 @@
 /* menu selection*/
 
-.MENU {
+.menu {
     color: #F00;
     font: BOLD 12px/18px sans-serif;
     text-align: center;
@@ -38,7 +38,7 @@
 .photo {
     position: relative;
     line-height: 0;
-    margin-bottom: 2cm;
+    margin-bottom: 2em;
     overflow: hidden;
     border-radius: 8px;
     padding: 1px;
