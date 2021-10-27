@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <title>Academy Cinemas</title>
   </head>
@@ -22,10 +22,10 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item active">
                                          
-                    <a id="about" class="nav-link text-light" aria-current="page" id="About" href="#About">About</a>
+                    <a id="about" class="nav-link text-light" aria-current="page" href="#About">About</a>
                   </li>
                   <li class="nav-item active">
-                    <a class="nav-link text-light" id="Showtimes" href="#Showtimes">Showtimes</a>
+                    <a class="nav-link text-light" href="#Showtimes">Showtimes</a>
                   </li>
                   <li class="nav-item active">
                     
@@ -38,7 +38,7 @@
                     </ul>
                   </li>
                   <li class="nav-item active">
-                    <a class="nav-link text-light" id="Deals" href="#Deals">Deals</a>
+                    <a class="nav-link text-light" href="#Deals">Deals</a>
                   </li>
                 </ul>
                 <form class="d-flex">
@@ -65,7 +65,8 @@
 
 
               </div>
-              <div class="col-sm">
+              <div class="col-sm" id="About">
+
                 
 
                 <h3>Acommodations:</h3>
@@ -106,23 +107,66 @@
          
 
            <div class="card-group" id="Showtimes">
-            <div class="card" style="width: 18rem;">
-                <img class="" src="./img/beautyandthebeast.jpg" alt="">
-                <div class="card-body">
+            <div class="card">
+                <img class="card-img-top" src="./img/beautyandthebeast.jpg" alt="">
+                <div class="card-block">
                   <h5 class="card-title">Beauty and the Beast</h5>
-                  <p class="card-text">The film tells the story of a prince who is transformed into a Beast and a young woman named Belle whom he imprisons in his castle. To become a prince again, the Beast must learn to love Belle and win her love in return before the last petal falls from an Enchanted Rose, or he will remain a Beast forever.</p>
-                  <h6><a href="#" class="btn btn-primary">5:00pm</a></h6>
-                  <h6><a href="#" class="btn btn-primary">8:00pm</a></h6>
-                  <h6><a href="#" class="btn btn-primary">11:00pm</a></h6>
+                  <p class="card-text">The film tells the story of a prince who is transformed into a Beast and a young woman named Belle whom he imprisons in his castle. To become a prince again, the Beast must learn to love Belle and win her love in return before the last petal falls from an Enchanted Rose, or he will remain a Beast forever.</p><br>
+                  <span class="badge badge-pill badge-info">12:00pm</span>
+                  <span class="badge badge-pill badge-info">1:30pm</span>
+                  <span class="badge badge-pill badge-info">3:00pm</span>
+                  <span class="badge badge-pill badge-info">5:30pm</span>
+                  <span class="badge badge-pill badge-info">7:00pm</span>
+                  <span class="badge badge-pill badge-info">9:30pm</span>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">last updated 3 minutes ago</small>
+  
+                </div>
+              </div>
+
+              <div class="card">
+                <img class="card-img-top" src="./img/kongskullisland.jpg" alt="">
+                <div class="card-block">
+                  <h5 class="card-title">Kong: skull island</h5>
+                  <p class="card-text">In the film, set in 1973, a team of scientists and Vietnam War soldiers travel to the uncharted Skull Island and meet Kong, a gigantic ape who is the last of his species, closely followed by other terrifying creatures.</p><br>
+                  <span class="badge badge-pill badge-info">12:00pm</span>
+                  <span class="badge badge-pill badge-info">1:30pm</span>
+                  <span class="badge badge-pill badge-info">3:00pm</span>
+                  <span class="badge badge-pill badge-info">5:30pm</span>
+                  <span class="badge badge-pill badge-info">7:00pm</span>
+                  <span class="badge badge-pill badge-info">9:30pm</span>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">last updated 3 minutes ago</small>
+  
+                </div>
+              </div>
+
+              <div class="card">
+                <img class="card-img-top" src="./img/ghostintheshell.jpg" alt="">
+                <div class="card-block">
+                  <h5 class="card-title">Ghost in the shell</h5>
+                  <p class="card-text">Augmentation developer Hanka Robotics establishes a secret project to develop an artificial body, or "shell", that can integrate a human brain rather than an AI. Mira Killian, the sole survivor of a cyberterrorist attack which killed her parents, is chosen as the test subject after her body is damaged beyond repair.</p><br>
+                  <span class="badge badge-pill badge-info">12:00pm</span>
+                  <span class="badge badge-pill badge-info">1:30pm</span>
+                  <span class="badge badge-pill badge-info">3:00pm</span>
+                  <span class="badge badge-pill badge-info">5:30pm</span>
+                  <span class="badge badge-pill badge-info">7:00pm</span>
+                  <span class="badge badge-pill badge-info">9:30pm</span>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">last updated 3 minutes ago</small>
+  
                 </div>
               </div>
              
-              <div class="card-group" id="Showtime">
-              <div class="card" style="width: 18rem;">
-                <img class="" src="./img/kongskullisland.jpg" alt="">
-                <div class="card-body">
+              
+              <!-- <div class="card">
+                <img class="card-img-top" src="./img/kongskullisland.jpg" alt="">
+                <div class="card-block">
                   <h5 class="card-title">Kong: skull island</h5>
-                  <p class="card-text">In the film, set in 1973, a team of scientists and Vietnam War soldiers travel to the uncharted Skull Island and meet Kong, a gigantic ape who is the last of his species, closely followed by other terrifying creatures.</p>
+                  <p class="card-text">In the film, set in 1973, a team of scientists and Vietnam War soldiers travel to the uncharted Skull Island and meet Kong, a gigantic ape who is the last of his species, closely followed by other terrifying creatures.</p><br>
                    <span class="badge badge-pill badge-info">12:00pm</span>
                    <span class="badge badge-pill badge-info">1:30pm</span>
                    <span class="badge badge-pill badge-info">3:00pm</span>
@@ -130,20 +174,29 @@
                    <span class="badge badge-pill badge-info">7:00pm</span>
                    <span class="badge badge-pill badge-info">9:30pm</span>
                 </div>
+              <div class="card-footer">
+                  <small class="text-muted">last updated 3 minutes ago</small>
+
               </div>
          </div>
 
-              <div class="card" style="width: 20rem;">
-                <a id="Ghost in the shell"href="Ghost in the shell"></a>
+              <div class="card">              
                 <img class="card-img-top" src="./img/ghostintheshell.jpg" alt="">
-                <div class="card-body">
+                <div class="card-block">
                   <h5 class="card-title">Ghost in the shell</h5>
-                  <p class="card-text">Augmentation developer Hanka Robotics establishes a secret project to develop an artificial body, or "shell", that can integrate a human brain rather than an AI. Mira Killian, the sole survivor of a cyberterrorist attack which killed her parents, is chosen as the test subject after her body is damaged beyond repair.</p>
-                  <h6><a href="#" class="btn btn-primary">5:00pm</a></h6>
-                  <h6><a href="#" class="btn btn-primary">8:00pm</a></h6>
-                  <h6><a href="#" class="btn btn-primary">11:00pm</a></h6>
+                  <p class="card-text">Augmentation developer Hanka Robotics establishes a secret project to develop an artificial body, or "shell", that can integrate a human brain rather than an AI. Mira Killian, the sole survivor of a cyberterrorist attack which killed her parents, is chosen as the test subject after her body is damaged beyond repair.</p><br>
+                  <span class="badge badge-pill badge-info">12:00pm</span>
+                  <span class="badge badge-pill badge-info">1:30pm</span>
+                  <span class="badge badge-pill badge-info">3:00pm</span>
+                  <span class="badge badge-pill badge-info">5:30pm</span>
+                  <span class="badge badge-pill badge-info">7:00pm</span>
+                  <span class="badge badge-pill badge-info">9:30pm</span>
                 </div>
-              </div>
+                <div class="card-footer">
+                    <small class="text-muted">last updated 3 minutes ago</small>
+  
+                </div>
+              </div> -->
            </div>
               <div class="text-center">
                 <form>
@@ -158,7 +211,7 @@
               <div class="container my-5" >
                 <ul class="nav nav-inline">
                     <li class="nav-item">
-                    <small><a class="nav-link active" id="#Deals" href="#Deals">Movie Rewards</a></small>
+                    <small><a class="nav-link active" id="Deals">Movie Rewards</a></small>
                 </li>
                 <li class="nav-item">
                     <small><a class="nav-link" href="#">Movie@news.org</a></small>
