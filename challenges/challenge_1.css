@@ -1,0 +1,175 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+img {
+    border-radius: 50%;
+}
+
+div.a {
+    text-align: center;
+  }
+  
+  div.b {
+    text-align: right;
+  }
+  
+  div.c {
+    text-align: right;
+  }
+  
+  div.c {
+    text-align: justify;
+  }
+
+  p.normal {
+    font-weight: normal;
+  }
+  
+  p.thick {
+    font-weight: bold;
+  }
+  
+  p.thicker {
+    font-weight: 500;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  
+.navbar {
+  overflow: hidden;
+  background-color: red;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  height: 4%;
+  position: absolute;
+  font-style: times;
+  font-size: 19px;
+}
+
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+
+.navbar a:hover {
+  background: blue;
+  color: black;
+}
+
+
+.main {
+  margin-top: 30px; 
+}
+
+a:hover {
+    background-color: green;
+  }
+
+  /*float*/
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .container:hover .image {
+    opacity: 0.3;
+  }
+
+  .container:hover .middle {
+    opacity: 1;
+  }
+
+  .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
